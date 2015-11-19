@@ -9,7 +9,10 @@
     
     <title>Collate, SoC style</title>
     
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootflat.min.css" rel="stylesheet">
     <link href="css/page.css" rel="stylesheet">
 </head>
 <body>
@@ -22,24 +25,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Collage</a>
+          <a class="navbar-brand" href="index.html">Collage</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Main</a></li>
+            <!-- <li><a href="index.html">Main</a></li> -->
             <li><a href="acad.html">Acad</a></li>
-            <li><a href="admin.html">Admin</a></li>
+            <!-- <li><a href="admin.html">Admin</a></li> -->
 			<li class="active"><a href="bidding.html">Bidding</a></li>
             <li><a href="email.html">Email</a></li>
             <li><a href="food.html">Food</a></li>
-            <li><a href="halls.html">Halls</a></li>
+            <!-- <li><a href="halls.html">Halls</a></li> -->
             <li><a href="internet.html">Internet</a></li>
 			<li><a href="misc.html">Misc</a></li>
-            <li><a href="resources.html">Resources</a></li>
+            <!-- <li><a href="resources.html">Resources</a></li> -->
             <li><a href="printing.html">Printing</a></li>
-            <li><a href="social.html">Social Media</a></li>
+            <li><a href="social.html">Social</a></li>
             <li><a href="travel.html">Travel</a></li>
-            <li><a href="work.html">Work</a></li>
+            <!-- <li><a href="work.html">Work</a></li> -->
             
           </ul>
         </div><!-- /.nav-collapse -->
@@ -50,14 +53,33 @@
 
       <div class="row row-offcanvas row-offcanvas-right">
 
-        <div class="col-xs-12 col-sm-9">
+        <div class="col-xs-12 col-sm-12">
           <div class="jumbotron">
-            <h1>Bidding!</h1>
-            <p>There comes a time when one must bid for modules. Too important to screw up, yet happens every semester.</p>
+            <div class="jumbotron-photo" style="width: 100%; display: block; margin: 0 auto;">
+                <img src="http://placehold.it/800x150/000/fff.jpg?text=Bidding+Help" style="width: 100%; max-width:800px; display: block; margin: 0 auto;" />
+            </div>
+            <div class="jumbotron-contents">
+                <div style="display: block; margin: 0 auto; width: 100%; max-width: 800px;">
+                    <h1>Bidding!</h1>
+                    <p>There comes a time when one must bid for modules. Too important to screw up, yet happens every semester.</p>
+                    <p>Note: Do know that there is <a
+                    href="http://www.nus.edu.sg/registrar/node/3031l#ResidencyRequirement">Minimum
+                    Module Credit Requirement</a> per semester, and it
+                    just got updated to 18MC (previously 15MC)
+                    </p>
+                    <p>
+                        <a class="btn btn-danger btn-block"
+                        href="https://github.com/quarbby/links-and-resources"
+                        target="_blank" style="display: inline-block; padding: 5px; word-wrap: break-word;">
+                            For extra credit read this! <br /> github/quarbby/
+                        </a>
+                    </p>
+                </div>
+            </div>
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>CORS</h2>
+              <h3>CORS</h3>
               <p>Also known as the Centralized Online Undergraduate
               Registration System, if you do not know yet, 
               its where you bid for your modules, 
@@ -66,15 +88,15 @@
               <p><a class="btn btn-primary btn-block" href="http://www.nus.edu.sg/cors" role="button">CORS</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>CORS Schedule AY1415S1</h2>
-              <p>Bidding schedule for academic year august 2014 - august 2015. Semester 1. </p>
+              <h3>CORS Schedule AY1516S1</h3>
+              <p>Bidding schedule for academic year august 2015 - august 2016. Semester 1. </p>
               <p>
-              <a class="btn btn-warning btn-block" href="http://www.cors.nus.edu.sg/schedule.html" role="button">Official</a>
-              <a class="btn btn-primary btn-block" href="http://www.cors.nus.edu.sg/contents/CORS-Registration-Bidding-Schedule-for-AY2014-Sem-1.pdf" role="button">Calendar View</a>
+              <a class="btn btn-warning btn-block" style="color: black;" href="http://www.cors.nus.edu.sg/schedule.html" role="button">Official</a>
+              <a class="btn btn-primary btn-block" href="http://www.cors.nus.edu.sg/contents/CORS-Registration-Bidding-Schedule-for-AY2015-Sem-1.pdf" role="button">Calendar View</a>
               </p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Timetable Planners</h2>
+              <h3>Timetable Planners</h3>
               <p>Timetable planners made for the good of NUS Students for planning there modules - also, there's a reason why the official one isn't posted...first</p>
               <p>
                   <a 
@@ -86,14 +108,14 @@
                     href="http://www.nusmods.com" 
                     role="button">NUSMods</a>
                   <a 
-                    class="btn btn-warning btn-block" 
+                    class="btn btn-warning btn-block" style="color: black;" 
                     href="https://webrb.nus.edu.sg/ctt/builder.aspx" 
                     role="button">Official NUS Module Planner</a>
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Academic Day 1 Slides</h2>
-              <p>Slides for Academic Day 1!!</p>
+              <h3>Academic Day 1 Slides</h3>
+              <p>Slides for Academic Day 1 in AY1415!!</p>
               <p>
                 <a 
                     class = "btn btn-primary btn-block" 
@@ -104,15 +126,15 @@
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>CORS HTML Tutorial</h2>
+              <h3>CORS HTML Tutorial</h3>
               <p>Complete with screenshots!</p>
-              <p><a class="btn btn-warning btn-block" href="http://www.cors.nus.edu.sg/help/html/01.htm" role="button">CORS Tutorial</a></p>
+              <p><a class="btn btn-warning btn-block" style="color: black;" href="http://www.cors.nus.edu.sg/help/html/01.htm" role="button">CORS Tutorial</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Module Skill Tree</h2>
+              <h3>Module Skill Tree</h3>
               <p>Visual planner for your modules throughout your stay in
               NUS! Interesting layout with indication of prerequsites.
-              One of the Orbital Projects for AY1314S1.<p>
+              One of the Orbital Projects for AY1314S1.</p>
               <p>
                 <a 
                     class="btn btn-primary btn-block"
@@ -123,28 +145,28 @@
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Corspedia</h2>
+              <h3>Corspedia</h3>
               <p>Module info and Bidding history all together!</p>
               <p><a class="btn btn-primary btn-block" href="http://www.corspedia.com/" role="button">Corspedia</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>CORSBidding History</h2>
+              <h3>CORSBidding History</h3>
               <p>Bidding history is one of the things you can use to 
               guess how much you will need to bid for your module now. 
               Except that it was history, 
               and it is not the future. Predict wisely! </p>
               <p>
                   <a class="btn btn-primary btn-block" href="http://nuscorsstats.com/" role="button">Unofficial</a>
-                  <a class="btn btn-warning btn-block" href="http://www.cors.nus.edu.sg/archive.html" role="button">Official</a>
+                  <a class="btn btn-warning btn-block" style="color: black;" href="http://www.cors.nus.edu.sg/archive.html" role="button">Official</a>
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>NUS Degree Requirements</h2>
+              <h3>NUS Degree Requirements</h3>
               <p>Before you bid for any module you should at least know what you gotten yourself into...</p>
-              <p><a class="btn btn-warning btn-block" href="http://www.nus.edu.sg/registrar/edu/UG/degree-requirements.html" role="button">NUS Degree Req.</a></p>
+              <p><a class="btn btn-warning btn-block" style="color: black;" href="http://www.nus.edu.sg/registrar/edu/UG/degree-requirements.html" role="button">NUS Degree Req.</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>SoC Course Schedule</h2>
+              <h3>SoC Course Schedule</h3>
               <p>Just because not all modules are made the same, 
               so there is need to check out which module is available in which semesters. 
               Important because some modules can disappear, 
@@ -153,37 +175,45 @@
               Or to find your favourite professors and stalk them (or the other way)</p>
               <p>
               <a class="btn btn-primary btn-block" href="http://www.comp.nus.edu.sg/undergraduates/useful_course_schedule.html" role="button">SoC Course Schedule</a>
-              <a class="btn btn-warning btn-block" href="http://ww1.math.nus.edu.sg/undergrad.aspx?f=stu-modules" role="button">Maths Course Schedule</a>
+              <a class="btn btn-warning btn-block" style="color: black;" href="http://ww1.math.nus.edu.sg/undergrad.aspx?f=stu-modules" role="button">Maths Course Schedule</a>
               <a class="btn btn-danger btn-block"
               href="http://bba.nus.edu/modules_Sem1_AY2014_2015.html"
               role="button">Business Course Schedule</a>
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>ULR</h2>
+              <h3>ULR</h3>
               <p>Also known as your University Level Requirements. Do check out the <a href="http://ww1.math.nus.edu.sg/undergrad.aspx?f=stu-modules">explanation here</a>. GEM is your General Education Modules, and SS is your Singapore Studies Modules</p>
+              <p>Note: this is for students enrolled before AY1516.
+              Students enrolled from AY1516 onwards will need to do the
+              <a href="http://www.nus.edu.sg/registrar/edu/UG/curriculum.html">5 pillars of General Education (GE)</a></p>
               <p>
               	<a class="btn btn-success btn-block" href="http://www.nus.edu.sg/gem/" role="button">GEM</a>
-                <a class="btn btn-warning btn-block" href="https://myaces.nus.edu.sg/cors/jsp/report/GEMInfoListing.jsp" role="button">GEM Schedule</a>
+                <a class="btn btn-warning btn-block" style="color: black;" href="https://myaces.nus.edu.sg/cors/jsp/report/GEMInfoListing.jsp" role="button">GEM Schedule</a>
                 <a class="btn btn-primary btn-block" href="https://share.nus.edu.sg/registrar/info/info/Singapore-Studies-Modules.pdf" role="button">SS</a>
-                <a class="btn btn-warning btn-block" href="https://myaces.nus.edu.sg/cors/jsp/report/SSMInfoListing.jsp" role="button">SS Schedule</a>
+                <a class="btn btn-warning btn-block" style="color: black;" href="https://myaces.nus.edu.sg/cors/jsp/report/SSMInfoListing.jsp" role="button">SS Schedule</a>
                 <a class="btn btn-danger btn-block" href="http://www.nus.edu.sg/registrar/faqs/ssd_faq.html" role="button">SS FAQs</a>
+              </p>
+              <p>
+              	<a class="btn btn-block" style="background:black;
+                color:white;" href="http://www.nus.edu.sg/registrar/gem/list-all-general-education-modules"
+                role="button">[New] All GEM &amp; Pillars</a>
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>UE</h2>
+              <h3>UE</h3>
               <p>Unrestricted Electives - 20MC, your choice, literally. <a href="http://www.comp.nus.edu.sg/undergraduates/exemptions_poly.html">Poly Students are exempted a bunch of these, do check our your exemptions!</a></p>
-              <p><a class="btn btn-warning btn-block" href="https://myaces.nus.edu.sg/cors/jsp/report/UEMInfoListing.jsp" role="button">UE Schedule</a></p>
+              <p><a class="btn btn-warning btn-block" style="color: black;" href="https://myaces.nus.edu.sg/cors/jsp/report/UEMInfoListing.jsp" role="button">UE Schedule</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Polytechic Students Exemptions</h2>
+              <h3>Polytechic Students Exemptions</h3>
               <p>Because you have already (or should have already) done these in your polytechnic days, you are exempted.</p>
               <p>
               <a class="btn btn-primary btn-block" href="http://www.comp.nus.edu.sg/undergraduates/exemptions_poly.html" role="button">View Exemptions</a>
-              <a class="btn btn-warning btn-block" href="http://www.ceg.nus.edu.sg/admissions/" role="button">CEG Exemptions</a></p>
+              <a class="btn btn-warning btn-block" style="color: black;" href="http://www.ceg.nus.edu.sg/admissions/" role="button">CEG Exemptions</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Module Reviews</h2>
+              <h3>Module Reviews</h3>
               <p>Not exactly the best place to get reviews, 
                 but still, 
                 one of the place that has reviews of modules. 
@@ -191,31 +221,30 @@
               <p><a class="btn btn-danger btn-block" href="http://module-review.com/" role="button">Module Review</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Course Requirements</h2>
-              <p>Apart from 160 Module Credits (160 MC) that is needed,
-                &amp; 120 of which is for your course - Here are some of the requirements for your course. 
-                Subject to updates of course.</p>
+              <h3>Course Requirements</h3>
+              <p>Within the 160 Module Credits (160 MC) that is needed, 120 of which are your course requirements. Subject to updates of course.</p>
               <p>
               	<a class="btn btn-success btn-block" href="http://www.comp.nus.edu.sg/undergraduates/cs_cb_prospective.html" role="button">Computational Biology</a>
                 <a class="btn btn-info btn-block" href="http://www.ceg.nus.edu.sg/curriculum/requirements.html" role="button">Computer Engineering</a>
                 <a class="btn btn-primary btn-block" href="http://www.comp.nus.edu.sg/undergraduates/cs_cs_prospective.html" role="button">Computer Science</a>
                 <a class="btn btn-danger btn-block" href="http://www.comp.nus.edu.sg/undergraduates/is_is_prospective.html" role="button">Information Systems</a>
-                <a class="btn btn-warning btn-block" href="http://www.comp.nus.edu.sg/undergraduates/is_ec_prospective.html" role="button">Electronic Commerce</a>
-              	<a class="btn btn-warning btn-block" href="http://www.comp.nus.edu.sg/undergraduates/ug-bsc-ba_prospective.html" role="button">Business Analytics</a>
+                <a class="btn btn-warning btn-block" style="color: black;" href="http://www.comp.nus.edu.sg/undergraduates/is_ec_prospective.html" role="button">Electronic Commerce</a>
+              	<a class="btn btn-warning btn-block" style="color: black;" href="http://www.comp.nus.edu.sg/undergraduates/ug-bsc-ba_prospective.html" role="button">Business Analytics</a>
+                <a class="btn btn-block" style="background: #434A54; color: white;" href="http://www.comp.nus.edu.sg/undergraduates/cs_isc_prospective.html" role="button">[New] Information Security</a>
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Study Planners</h2>
+              <h3>Study Planners</h3>
               <p>These are for your reference, some module planning already done up. MAY NOT WORK FOR YOU! DO NOT USE BLINDLY.</p>
               <p>
               	<a class="btn btn-primary btn-block" href="http://www.comp.nus.edu.sg/undergraduates/documents/studyplannersAY2013-14.pdf" role="button">Computer Science</a>
                 <a class="btn btn-danger btn-block" href="http://www.comp.nus.edu.sg/is/cur-ug-studyplans.html#is" role="button">Information Systems</a>
-                <a class="btn btn-warning btn-block" href="http://www.comp.nus.edu.sg/is/cur-ug-studyplans.html#ec" role="button">Electronic Commerce</a>
-                <a class="btn btn-warning btn-block" href="http://www.comp.nus.edu.sg/is/ug-bsc-ba.html#overview" role="button">Business Analytics</a>
+                <a class="btn btn-warning btn-block" style="color: black;" href="http://www.comp.nus.edu.sg/is/cur-ug-studyplans.html#ec" role="button">Electronic Commerce</a>
+                <a class="btn btn-warning btn-block" style="color: black;" href="http://www.comp.nus.edu.sg/is/ug-bsc-ba.html#overview" role="button">Business Analytics</a>
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Other Course Links</h2>
+              <h3>Other Course Links</h3>
               <p>If it interests you</p>
               <p>
               <a class="btn btn-success btn-block" href="http://www.comp.nus.edu.sg/~cbl/" role="button">Computational Biology Laboratory</a>
@@ -223,28 +252,30 @@
               </p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Freshman Course Briefing AY1415</h2>
+              <h3>Freshman Course Briefing AY1415</h3>
               <p>Inclusive of the new ULR Core &amp; the Gradeless First semester, 
               this may be something you probably want to make sure you know.
               The briefing is the official one conducted by 
               <a href="http://www.comp.nus.edu.sg/~leews">Vice Dean
               Prof Lee Wee Sun</a> on the 21st of July 2014.</p>
-              <p><a class="btn btn-warning btn-block" href="http://www.comp.nus.edu.sg/undergraduates/documents/course-briefing-AY14-15.pdf" role="button">Course Briefing Slides</a></p>
+              <p><a class="btn btn-warning btn-block" style="color: black;" href="http://www.comp.nus.edu.sg/undergraduates/documents/course-briefing-AY14-15.pdf" role="button">Course Briefing Slides</a></p>
             </div>
             
           </div><!--/row-->
         </div><!--/span-->
-      <hr>
-
+    </div><!--/.container-->
+    <div class="container">
+      <div class="row">
       <footer>
+        <hr />
         <p>&copy; 2014 <a
         href="http://www.facebook.com/andrewkzk">Collator</a> 
         | Anything on this site is purely my humble opinion :)</p>
+        <p>Minor updates for AY1516 up on 10th July</p>
+        <p> Best viewed on Mobile Handsets. Some Menu links are hidden temporarily due to not enough time to update.</p>
       </footer> 
-
-    </div><!--/.container-->
-
-
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
